@@ -1,0 +1,10 @@
+# print("Hello")
+# print("Length : " ,len("Hello"))
+# print(int("123") + int("123"))
+# print(float("123"))
+
+# print("Number of letters in your name : \n" ,len(input("Enter your name")))
+print("Enter your name")
+name = input()
+length = len(name)
+print("Number of letters in your name : " +  str(length))
